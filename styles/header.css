@@ -1,0 +1,92 @@
+header {
+    padding-top: 33px;
+    background-color: #FFFF;
+}
+
+.logo {
+    width: 244px;
+    height: 45px;
+}
+
+.phone-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.buy-cart-icon {
+    width: 35px;
+    height: 38px;
+}
+
+.personal-account-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.header-inform {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.phone-icon {
+    margin-left: auto;
+    margin-right: 9px;
+}
+
+.phone-number {
+    margin-right: 60px;
+    color: #000000;
+}
+
+.cart {
+    margin-right: 15px;
+}
+
+.icon:nth-last-child(-n+2){
+    align-self: flex-end;
+}
+
+.search {
+    width: 345px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background-color:  #F2F2F2;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #4F4F4F;
+    margin-left: 40px;
+}
+
+.header-navigation {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-left: auto;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.nav-link:first-child {
+    margin-left: 0px;
+}
+
+.search::placeholder {
+    color: #828282;
+}
+
+.drop-down::after {
+    margin-left: 4px;
+    content: url(../image/icons/eva_arrow-ios-upward-outline.png);
+}
