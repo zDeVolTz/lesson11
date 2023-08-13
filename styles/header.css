@@ -30,18 +30,24 @@ header {
     align-items: center;
 }
 
-.phone-icon {
-    margin-left: auto;
-    margin-right: 9px;
-}
-
 .phone-number-link {
+    margin-left: auto;
+    display: flex;
     margin-right: 60px;
     text-decoration: none;
 }
 
 .phone-number {
     color: #000000;
+}
+
+.phone-number-link::before {
+    content: "";
+    background-image: url(../image/icons/carbon_phone.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
 }
 
 .cart-icon {
