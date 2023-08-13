@@ -1,5 +1,6 @@
 header {
     padding-top: 33px;
+    padding-bottom: 30px;
     background-color: #FFFF;
 }
 
@@ -34,16 +35,20 @@ header {
     margin-right: 9px;
 }
 
-.phone-number {
+.phone-number-link {
     margin-right: 60px;
+    text-decoration: none;
+}
+
+.phone-number {
     color: #000000;
 }
 
-.cart {
+.cart-icon {
     margin-right: 15px;
 }
 
-.icon:nth-last-child(-n+2){
+.header-icons {
     align-self: flex-end;
 }
 
@@ -89,4 +94,22 @@ header {
 .drop-down::after {
     margin-left: 4px;
     content: url(../image/icons/eva_arrow-ios-upward-outline.png);
+}
+
+.product-weight > button {
+    width: 68px;
+    height: 29px;
+    background-color: #F9F9F9;;
+    border: 0;
+}
+
+.product-weight > button:focus {
+    border-radius: 5px;
+    border: 1px solid #3ECF5E;
+    background-color: #ffffff;
+}
+
+.weight {
+    font-weight: 500;
+    color: #4F4F4F;
 }
