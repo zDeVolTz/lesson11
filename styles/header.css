@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    font-size: 0;
 }
 
 .phone-number-link-header {
