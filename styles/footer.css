@@ -3,3 +3,55 @@ footer {
     padding-top: 100px;
     padding-bottom: 130px;
 }
+
+.footer-navigation a p {
+    display: inline;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.footer-navigation a {
+    text-decoration: none;
+}
+
+.footer-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phone-number-link-footer {
+    display: flex;
+}
+
+.phone-number-link-footer::before {
+    content: "";
+    background-image: url(../image/icons/carbon_phone-white.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+}
+
+.footer-link-delivery {
+    margin-right: 47px;
+}
+
+.icon-vk {
+    margin-right: 20px;
+}
+
+.container {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
