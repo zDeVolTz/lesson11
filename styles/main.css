@@ -74,7 +74,7 @@ main {
     padding: 20px 20px 30px 20px;
     width: 315px;
     border-radius: 20px;
-    border: 1px solid var(--gray-6, #F2F2F2);
+    border: 1px solid #F2F2F2;
     background: #F9F9F9;
     box-shadow: 
                 8px 8px 15px 0px rgba(0, 0, 0, 0.05),
@@ -145,9 +145,7 @@ main {
 }
 
 .arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 16px;
     height: 16px;
 }
