@@ -4,14 +4,10 @@ footer {
     padding-bottom: 130px;
 }
 
-.footer-navigation a p {
-    display: inline;
+.footer-navigation .text-style {
+    text-decoration: none;
     color: #ffffff;
     font-weight: 500;
-}
-
-.footer-navigation a {
-    text-decoration: none;
 }
 
 .footer-navigation {

@@ -121,7 +121,7 @@ main {
     border-radius: 10px;
 }
 
-.details > p {
+.card-details-shopping-cart > .text-style {
     color: #FFF;
     font-weight: 600;
 }
@@ -158,12 +158,13 @@ main {
     display: flex;
 }
 
+
 .pagination-number {
     margin-left: 20px;
     text-decoration: none; 
 }
 
-.pagination-number > p {
+.pagination-pages > .text-style {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #828282;
@@ -173,7 +174,8 @@ main {
     margin-left: 0;
 }
 
-.pagination-number > p:active {
+.pagination-pages > .text-style:active {
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #219653;
 }
