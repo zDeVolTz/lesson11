@@ -21,15 +21,18 @@ header {
 
 .header-inform {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: space-between;
     font-size: 0;
+}
+
+.right-container-inform {
+    display: flex;
+    align-items: flex-end;
 }
 
 .phone-number-link-header {
     display: flex;
     text-decoration: none;
-    margin-left: auto;
     margin-right: 60px;
 }
 
@@ -76,8 +79,15 @@ header {
     align-items: center;
 }
 
-.search {
+.form-search{
     margin-left: auto;
+}
+
+.search {
+    background-image: url(../image/icons/Search.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: right 20px center; 
     padding-left: 20px;
     font-size: 18px;
 }

@@ -11,7 +11,7 @@ main {
     margin-right: 15px;
 }
 
-.main-nav > p {
+.nav-panel > .text-style {
     color: #BDBDBD;
     font-weight: 500;
 } 
@@ -34,27 +34,24 @@ main {
 }
 
 .back-link {
+    display: flex;
     margin-top: 30px;
     margin-bottom: 40px;
-    width: 82px;
-    height: 24px;
 }
 
 .back {
-    text-decoration: none;
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-
-.back p {
     display: flex;
     align-items: center;
+    text-decoration: none;
+}
+
+.back-link > .text-style {
     font-size: 20px;
     font-weight: 500;
     color: #333333;
 }
 
-.back p::before{
+.back::before{
     content: "";
     background-image: url(../image/icons/eva_arrow.png);
     background-repeat: no-repeat;
@@ -80,7 +77,6 @@ main {
                 8px 8px 15px 0px rgba(0, 0, 0, 0.05),
                 -8px -8px 15px 0px #FFF;
 }
-
 
 .card-margin {
     margin-bottom: 25px;
